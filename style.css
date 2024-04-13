@@ -1,0 +1,852 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+
+@font-face{
+    
+
+    font-family: "BNazanin";
+    
+    src: url("../fonts/B-NAZANIN.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("../fonts/B-NAZANIN.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("../fonts/B-NAZANIN.woff") format("woff"); /* Modern Browsers */
+   
+}
+@font-face {
+    font-family: 'BYekan';
+    src: url('http://fontonline.ir/fonts/BYekan.eot?#') format('eot'),
+    url('http://fontonline.ir/fonts/BYekan.ttf') format('truetype'),
+    url('http://fontonline.ir/fonts/BYekan.woff') format('woff');
+    }
+body{
+    font-family: 'BYekan';
+    font-family: "BNazanin";
+}
+    
+
+.logo{
+    width: 100%;
+    text-align: right;
+    height: 150px;
+    padding-top: 20px;
+    line-height: 30px;
+
+}
+.logo div{
+    float: left;
+    
+    margin: 1.5%;
+    padding-right: 10px;
+}
+#logo1{
+    width: 12%;
+    
+}
+#logo2{
+    width: 28%;
+    
+    position: relative;
+    border-left: 1px solid;
+    
+}
+#logo2 i{
+    position: absolute;
+    top: 15px;
+    right:  -30px;
+}
+#logo3{
+    width: 17%;
+    position: relative;
+    border-left: 1px solid;
+    margin-right: 70px;
+}
+#logo3 i{
+    position: absolute;
+    top: 15px;
+    right:  -30px;
+}
+#tell{
+    color: rgb(22, 212, 22);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#logo img{
+    width: 300px;
+}
+.logo i{
+    font-size: 2em;
+    color: rgb(22, 212, 22);
+    
+}
+nav{
+    width: 100%;
+    background-color:rgb(22, 212, 22) ;
+    direction: rtl;
+    padding: 20px ;
+    margin-right: 40px;
+    position: relative;
+    position: sticky;
+    top: 0;
+    
+}
+#a{
+    margin-right: 100px;
+}
+nav li{
+    display: inline-block;
+    background-color:rgb(22, 212, 22) ;
+    padding-top: 5px;
+    position: relative;
+    
+    
+    
+    
+}
+nav a{
+    text-decoration: none;
+    padding: 10px 21px;
+    color: white;
+    
+}
+nav li:hover> a{
+    
+    border-bottom: 2px solid white;
+}
+.dropdown li{
+    padding: 10px;
+    width: 200px;
+    position: relative;
+    background-color: white;
+    border-bottom: 1px solid;
+}
+.dropdown a{
+    color: black;
+}
+nav .dropdown {
+    display: block;
+    position: absolute;
+    z-index: 100;
+    display: none;
+    top: 40px;
+    right: 0;
+    
+}
+#bas li:hover ul{
+    display: inline;
+    
+}
+#one {
+    margin-right: 100px;
+}
+nav button{
+   
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    background-color: initial;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    
+
+
+}
+#search{
+    display: inline-block ;
+    
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    padding: 15px 70px;
+    z-index: 1;
+    display: none;
+}
+
+nav button:hover #serch{
+    display: inline;
+    z-index: 100;
+}
+#listbar{
+    clear: both;
+    width: 100%;
+}
+@keyframes listbar{
+    from{
+
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+#listbar img{
+    width: 100%;
+    animation: listbar 1.5s 0s alternate-reverse;
+}
+
+#main1{
+    clear: both;
+    height: 500px;
+    margin-top: 60px;
+    width: 80%;
+    margin-left: 190px;
+    box-shadow: 0 5px 20px;
+    padding-top: 30px;
+   
+    margin-bottom: 50px;
+    
+    
+    
+}
+#main1 h1{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+#main1 #p1{
+    direction: rtl;
+    width: 70%;
+    margin-left: 150px;
+}
+ #p2{
+     text-align: center;
+     width: 780px;
+     padding: 15px 20px;
+    background-color: rgb(215, 236, 243);
+    border: 1px solid rgb(121, 182, 240);
+    margin-top: 30px;
+    margin-left: 120px;
+    color: rgb(64, 160, 224);
+}
+#main2 {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    
+    
+    height: 100%;
+}
+@keyframes oneanymation{
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1.7);
+    }
+}
+#main2 button{
+    border: none;
+    background-color: white;
+    color: rgb(22, 212, 22);
+    font-size: 2em;
+    margin-bottom: 20px;
+    transition: all 300ms;
+    outline: none;
+    animation: oneanymation 2s 3s ;
+    
+}
+#main2 div:hover button{
+transform:translateY(-20px)
+}
+#main2 div{
+    float: left;
+    width: 30%;
+    height: 130px;
+    
+   
+    margin-top: 30px;
+    border-top: 1px solid rgb(187, 183, 183);
+    border-left:1px solid rgb(187, 183, 183);
+    padding: 50px 15px;
+    
+}
+#main2 h2{
+    
+    font-size: 1.5em;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+#main3{
+    clear: both;
+    width: 100%;
+    margin-left: 50px;
+    
+}
+#main3 h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+#main3 div{
+    float: left;
+    width: 40%;
+}
+#main31{
+    direction: rtl;
+    margin-right: 30px;
+    line-height: 30px;
+}
+#main3 button{
+    margin-top: 50px;
+    background-color:rgb(22, 212, 22) ;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+}
+
+#main3 button:hover{
+    color: black;
+
+}
+@keyframes left{
+    from{
+
+    }
+    to{
+        transform: translateX(200px)
+    }
+}
+#main31{
+    animation: left 1s 4s alternate-reverse ;
+}
+@keyframes right{
+    from{
+
+    }
+    to{
+        transform: translateX(-200px)
+    }
+}
+#main32{
+    animation: right 1s 4s alternate-reverse;
+}
+#main4{
+    clear: both;
+    width: 95%;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 30px;
+
+}
+#main4 div{
+    
+    float: left;
+    
+    font-size: 1.7em;
+    color: white;
+    margin-top: 40px;
+    
+}
+#main41{
+   padding: 28px 20px;
+    width: 25%;
+    background-color:rgb(22, 212, 22)  ;
+
+
+}
+#main42{
+    padding: 77px 20px;
+    width: 60%;
+    background-color: rgb(15, 134, 45);
+}
+#main4 button{
+    
+    border: none;
+    padding: 12px 20px;
+    border-radius: 15px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+#main4 button:hover{
+    background-color: white;
+    cursor: pointer;
+    
+    
+}
+#main5{
+    clear: both;
+    text-align: center;
+    width: 100%;
+   
+}
+#main5 h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 70px;
+    margin-bottom: 30px;
+}
+.img1 div{
+    width: 20%;
+    float: left;
+    margin: 50px;
+    
+}
+@keyframes first{
+form{
+    
+}   
+to{
+    
+    transform: translate(-100px , 0);
+    opacity: 0;
+    
+    
+}
+}
+.img12{
+    padding-left: 120px;
+    animation: first 2s 6s alternate-reverse;
+    
+}
+@keyframes second{
+    from{
+
+    }
+    to{
+        transform: translateY(150px);
+        opacity: 0;
+    }
+}
+.img13{
+    animation: second 2s 6s alternate-reverse;
+}
+@keyframes theree{
+    from{
+
+    }
+    to{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+}
+.img14{
+    animation: theree 2s 6s alternate-reverse;
+}
+@keyframes four{
+    form{
+    }   
+    to{
+        transform: translate(-100px , 0);
+        opacity: 0;
+    }
+    }
+    .img15{
+        
+        animation: four 2s 7s alternate-reverse;
+        
+    }
+    @keyframes five{
+        from{
+    
+        }
+        to{
+            transform: translateY(150px);
+            opacity: 0;
+        }
+    }
+    .img16{
+        animation: five 2s 7s alternate-reverse;
+    }
+    @keyframes six{
+        from{
+    
+        }
+        to{
+            transform: translateX(100px);
+            opacity: 0;
+        }
+    }
+    .img17{
+        animation: six 2s 7s alternate-reverse;
+    }
+.img15{
+    padding-left: 120px; 
+}
+.img1 h2{
+    width: 80px;
+    font-size: 1.2em;
+    border-bottom: 2px solid rgb(15, 134, 45) ;
+    
+    margin-top: 20px;
+    margin-left: 100px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    
+} 
+
+#main6 {
+    clear: both;
+    width: 100%;
+    direction: rtl;
+    margin-top: 70px;
+    
+}
+#main6 div{
+    float: left;
+    width: 35%;
+    margin-top: 70px;
+    
+    
+    
+}
+#main6 h1{
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+
+#main6 input{
+    margin-top: 25px;
+    display: block;
+    padding: 15px 100px;
+    margin-bottom: 25px;
+    direction: rtl;
+    font-size: 1.2em;
+}
+#form{
+    background-color: rgba(216, 225, 233, 0.603);
+    padding: 50px 30px;
+    direction: rtl;
+    
+    
+    
+}
+#form select{
+    width: 80%;
+    height: 50px;
+    font-size: 1.2em;
+}
+#form button{
+    border: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color:rgb(22, 212, 22) ;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    
+}
+#form button:hover{
+    background-color: rgb(42, 102, 231);
+}
+#details{
+    margin-right: 150px;
+    margin-left: 90px;
+    
+}
+details:hover {
+    background-color:rgb(22, 212, 22) ;
+    color: white;
+}
+#details a{
+    text-decoration: none;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color:rgb(22, 212, 22) ;
+    color: white;
+    font-size: 1.2em;
+    
+    
+
+
+}
+#details a:hover{
+    color: black;
+}
+details:first-child{
+    background-color:rgb(22, 212, 22) ;
+    color: white;
+}
+details summary{
+    outline: none;
+    
+}
+#details details{
+    padding: 20px 50px;
+    margin-bottom: 50px;
+    border: 1px solid rgb(192, 186, 186);
+    outline: none;
+}
+#main7{
+    clear: both;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+#main7 h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 80px;
+    margin-bottom: 30px;
+}
+#main7 img{
+    margin: 40px 10px;
+}
+#main7 p{
+    text-align: center;
+    width: 780px;
+    padding: 15px 20px;
+   background-color: rgb(215, 236, 243);
+   border: 1px solid rgb(121, 182, 240);
+   margin-top: 30px;
+   margin-left: 250px;
+   color: rgb(64, 160, 224);
+}
+#main7 a {
+    
+    text-decoration: none;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color:rgb(22, 212, 22) ;
+    color: white;
+    font-size: 1.2em;
+    
+}
+#main7 a:hover{
+    color: black;
+}
+
+#main8{
+    clear: both;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+#main8 div:hover img{
+    
+    transform: translateY(-30px)
+}
+#main8 h1{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+#main8 img{
+    
+    transition: all 1s;
+}
+#main8 div{
+    float: left;
+    width: 28%;
+    margin-left: 40px;
+    transition: all 1s;
+    
+}
+#main8>p{
+    margin-bottom: 30px;
+}
+#main8 div p{
+    margin-bottom: 50px;
+}
+#main8 h2{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+#main8 a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    background-color:rgb(22, 212, 22) ;
+}
+#img1 {
+    position: relative;
+   padding-left: 50px;
+}
+#img1 #a1{
+    
+    position: absolute;
+    float: right;
+    right: 60px;
+    top: 30px;
+    margin-left: 10px;
+
+}
+#img #a2,#a3{
+    position: absolute;
+    top: 100px;
+    right: 150px;
+}
+#img2 {
+    position: relative;
+}
+#img2 #a1{
+    position: absolute;
+    top: 50px;
+    right: 70px;
+}
+#img3{
+    position: relative;
+}
+#img3 a{
+    position: absolute;
+    top: 50px;
+    right: 70px;
+}
+
+
+footer{
+    clear: both;
+    
+    width: 100%;
+    height: 600px;
+    background-color:rgb(19, 155, 19) ;
+    text-align: right;
+    
+    
+    
+}
+footer div{
+    padding-top: 30px;
+    float: left;
+    width: 20%;
+    margin-left: 40px;
+    color: white;
+    font-size: 1.1em;
+    line-height: 30px;
+
+
+}
+footer div a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 15px;
+    
+}
+footer h1{
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+footer button{
+    font-size: 1.3em;
+    background-color:rgb(19, 155, 19) ;
+    color: white;
+    border-radius: 45%;
+    outline: none;
+    border: 1px solid white;
+    padding-left: 10px;
+}
+footer span a{
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 10px 10px;
+    opacity: 0.5;
+}
+footer span a:hover{
+    opacity: 1;
+    background-color:rgb(22, 212, 22) ;
+    color: black;
+}
+footer img{
+    width: 300px;
+    margin-bottom: 30px;
+}
+.footer{
+    clear: both;
+    width: 100%;
+    height: 90px;
+    background-color:rgb(19, 155, 19) ;
+    border-top: 1px solid rgb(207, 200, 200);
+    color: white;
+    text-align: right;
+    font-size: 1.2em;
+}
+.footer p{
+    margin-top: 30px;
+}
+.footer a{
+    text-decoration: none;
+    color:rgb(22, 212, 22) ;
+}
+#stiky {
+    text-align: right;
+    position: sticky;
+    bottom: 50px;
+    right: 30px;
+    
+    
+    
+
+}
+#stiky button{
+    background-color:rgb(22, 212, 22) ;
+    color: white;
+    font-size: 2em;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 10px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    box-shadow: 0 0 10px rgb(155, 152, 152);
+    
+    
+}
+#stiky button:hover{
+    background-color: white;
+    color: black;
+}
+#stiky2 button{
+    background-color:rgb(22, 212, 22) ;
+    color: white;
+    font-size: 2em;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 50px;
+    left: 30px;
+    box-shadow: 0 0 10px rgb(155, 152, 152);
+    
+    
+}
+#stiky2 button:hover{
+    background-color: white;
+    color: black;
+}
+::-webkit-scrollbar{
+
+    width: 20px;
+    
+    
+    
+
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(rgb(97, 233, 97) ,rgb(241, 235, 235) );
+    border-radius: 20px;
+    border: 1px solid rgb(204, 201, 201);
+    height: 200px;
+
+}
+
+
+
